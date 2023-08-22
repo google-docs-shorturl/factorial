@@ -1,6 +1,6 @@
 # Factorial Calculator
 
-This Python module, `factorial.py`, is a versatile and user-friendly tool designed to calculate the factorial of a non-negative integer. The factorial of a non-negative integer `n` is the product of all positive integers from 1 to `n`. This module provides a reliable way to compute factorials, handling various scenarios, including input validation and error handling.
+This Python module, `simple_factorial`, is a versatile and user-friendly tool designed to calculate the factorial of a non-negative integer. The factorial of a non-negative integer `n` is the product of all positive integers from 1 to `n`. This module provides a reliable way to compute factorials, handling various scenarios, including input validation and error handling.
 
 ## Table of Contents
 
@@ -13,10 +13,10 @@ This Python module, `factorial.py`, is a versatile and user-friendly tool design
 
 ## Installation
 
-To use the `factorial.py` module, you can simply import it into your Python project. There is no need for a separate installation process. Make sure the `factorial.py` file is in the same directory as your Python script, or you can place it in a directory that is in your Python module search path.
+To use the `simple_factorial` module, you can simply import it into your Python project. There is no need for a separate installation process. Make sure the `factorial.py` file is in the same directory as your Python script, or you can place it in a directory that is in your Python module search path.
 
 ```python
-import factorial
+pip install simple_factorial
 ```
 
 ## Usage
@@ -24,9 +24,9 @@ import factorial
 You can use the `calculate_factorial` function provided by the `factorial.py` module to calculate the factorial of a non-negative integer. Here's a basic example:
 
 ```python
-import factorial
+import simple_factorial
 
-result = factorial.calculate_factorial(5)
+result = simple_factorial.factorial(5)
 print(result)  # Output: 120
 ```
 
@@ -35,9 +35,9 @@ print(result)  # Output: 120
 The `factorial.py` module includes detailed documentation in the form of docstrings. These docstrings provide information about the module's purpose, function arguments, return values, and usage examples. You can access this documentation using Python's built-in `help()` function or by viewing the docstrings directly in your code editor.
 
 ```python
-import factorial
+import simple_factorial
 
-help(factorial.calculate_factorial)
+help(simple_factorial.factorial)
 ```
 
 ## Features
